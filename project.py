@@ -154,7 +154,7 @@ def main():
     """
     print("Welcome to the Weather Data Analysis Tool!")
     city = input("Enter the city name: ").strip()
-    api_key = '328b32e6b5baca0b603ade13fef9fe0c'  # Replace with your actual API key
+    api_key = ''  # Replace with your actual API key
 
     fetch_weather_data(city, api_key)
 
